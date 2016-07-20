@@ -1,0 +1,83 @@
+// custom.scss
+
+.home {
+	.post {
+		text-align: center;
+		h2 {
+			display: none;
+		}
+	}
+}
+
+#top-bar {
+	$column-width: 33%;
+	.store-cta {
+		display: none;
+		a {
+			color: $white;
+			text-shadow: 0 1px 0 $dark-beige;
+			text-decoration: none;
+			font-family: 'Open Sans Condensed', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: .03em;
+		}
+		@include tablet-desktop {
+			display: block;
+			float: left;
+			width: $column-width;
+		}
+	}
+	.social-links {
+		display: block;
+		@include tablet-desktop {
+			float: left;
+			width: $column-width;
+		}
+		a {
+			color: $white;
+			text-shadow: 0 1px 0 $dark-beige;
+			font-size: 1.3em;
+		}
+	}
+	.search-ecwid-desktop {
+		display: none;
+		@include tablet-desktop {
+			display: block;
+			width: $column-width;
+			float: left;
+		}
+	}
+}
+
+// Ecwid Ecommerce
+
+.search-ecwid {
+	display: block;
+	width: 50%;
+	float: left;
+	height: 100%;
+	margin: 7px 0 0 0;
+	@include tablet-desktop {
+		display: none;
+	}
+}
+
+.ecwid-shopping-cart {
+	#page-wrap {
+		#primary {
+			padding-bottom: 0px;
+			.ecwid-store, .entry {
+				border-top: 1px solid $beige;
+				border-bottom: 1px solid $beige;
+				font-family: $font-sans-serif;
+				background: white;
+				padding: $space-md $space-lg;
+				margin-left: -$space-lg;
+				margin-right: -$space-lg;
+				p {
+					margin-bottom: 14px;
+				}
+			}
+		}
+	}
+}

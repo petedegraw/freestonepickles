@@ -1,0 +1,63 @@
+// defaults.scss
+
+// Colors
+$light-green: #A1D884;
+$red: #DA291C;
+$faded-red: #D84F41;
+$cream: #ECE9D6;
+$beige: #D3D1C2;
+$dark-beige: #9D9B92;
+$darker-beige: #4D4D4D;
+$black: #444444;
+$white: #FFFFFF;
+
+// Page
+$page-width: 960px;
+
+// Typography
+// $font-sans-serif: Tahoma, Verdana, Segoe, sans-serif;
+$font-sans-serif: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-serif: Georgia, Times, "Times New Roman", serif;
+// $font-size: 14px;
+// $line-height: $font-size * 1.6;
+$font-size: 18px;
+$line-height: 30px;
+$h1: $font-size * 1.6;
+$h2: $font-size * 1.5;
+$h3: $font-size * 1.4;
+$h4: $font-size * 1.3;
+$h5: $font-size * 1.2;
+$h6: $font-size * 1.1;
+
+// Icons
+$fa-font-path:   "../fonts/font-awesome/";
+
+// Margin & Padding
+$gutter: 3px;
+$space: 10px;
+$space-sm: $space;
+$space-md: $space * 1.5;
+$space-lg: $space * 3;
+$space-xl: $space * 4;
+
+// Media Queries
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin tablet-desktop {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}

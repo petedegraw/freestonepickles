@@ -1,0 +1,90 @@
+// typography.scss
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700';
+
+body {
+	font-family: $font-sans-serif;
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+h1, h2, h3, #nav, .jumbotron {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .015em;
+}
+
+h1, h2, h3 {
+	margin: 0 0 $space-md 0;
+}
+h1 {
+	font-size: $h1;
+}
+h2 {
+	font-size: $h2;
+	font-weight: bold;
+}
+h3 {
+	font-size: $h3;
+}
+
+
+p { margin: 0 0 ($line-height * .8) 0; } // 24px
+a {
+	color: $red;
+}
+a:hover { } 
+
+blockquote {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: $space-lg;
+	background: rgba(0,0,0,.06);
+	background: linear-gradient(to bottom right, rgba(0,0,0,.1), rgba(0,0,0,.06), rgba(0,0,0,.1));
+	border-width: 10px;
+	border-style: solid;
+	border-image: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.06), rgba(0,0,0,.2)) 100% 1;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	span {
+		font-style: italic;
+		display: block;
+		text-align: right;
+		&:before {
+			content: "— "
+		}
+	}
+}
+blockquote p { }
+
+strong.sans-serif {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.post { }
+
+.entry {
+	// margin: 0 auto;
+	// max-width: 696px;
+	font-family: $font-serif;
+}
+.entry a { }
+.entry a:hover { }
+
+#footer {
+	font-size: 85%;
+	text-shadow: 0 1px 0 #000000;
+	a {
+		color: $beige;
+		text-decoration: underline;
+	}
+}
+.jumbotron {
+	font-size: $font-size * 3;
+	line-height: $line-height * 3;
+	display: block;
+	word-spacing: ($space-sm/1.5);
+	text-align: center;
+}

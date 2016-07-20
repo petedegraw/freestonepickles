@@ -1,0 +1,58 @@
+// tabs.scss
+
+$tab-bg: $dark-beige;
+$tab-bg-active: $light-green;
+$tab-bg-hover: $dark-beige;
+$tab-color-background: $darker-beige;
+$tab-content-bg: #efefef;
+
+$tab-color: $white;
+
+.tabs {
+    margin: $space-md 0 0;
+    padding: 0px;
+    list-style: none;
+    background: $tab-bg;
+    background: linear-gradient(to bottom right, darken($tab-bg, 15%), darken($tab-bg, 10%), $tab-bg);
+    @include tablet-desktop {
+        border-bottom: 5px darken($tab-bg-active, 10%) solid;
+    }
+}
+.tabs li {
+    display: block;
+    margin: 0;
+    padding: 10px 20px 5px 20px;
+    cursor: pointer;
+    font-family: $font-sans-serif;
+    color: $tab-color;
+    text-shadow: 0 1px 0 #999;
+    border-bottom: 3px solid darken($tab-bg-active, 10%);
+    @include tablet-desktop {
+        display: inline-block;
+        border-bottom: none;
+    }
+}
+.tabs li:hover {
+    background: $tab-bg-hover;
+    @include tablet-desktop {
+        border-bottom: none;
+    }
+}
+.tabs li.current {
+    background: linear-gradient(to bottom, $tab-bg-active, $tab-bg-active, darken($tab-bg-active, 10%));
+    color: $tab-color;
+}
+.tab-content {
+    display: none;
+    background: $tab-content-bg;
+    padding: $space-lg $space-md;
+    margin-bottom: $space-md;
+    h1, h2, h3, h4, h5, h6 {
+        text-transform: none;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+}
+.tab-content.current{
+    display: inherit;
+}

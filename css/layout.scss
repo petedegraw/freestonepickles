@@ -1,0 +1,97 @@
+// layout.scss
+
+html {
+	height: 100%;
+	background: url('./images/pickles.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body {
+	box-sizing: border-box;
+	min-height: 100%;
+	background-color: rgba(155,195,95,.66);
+	background-attachment: fixed;
+	background-image:
+		repeating-linear-gradient(45deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 18px),
+		repeating-linear-gradient(-45deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 18px)
+}
+
+#page-wrap {
+	max-width: $page-width;
+	margin: 0px auto;
+	box-shadow: 0 -5px $space-sm #777;
+	#top-bar {
+		height: 30px;
+		display: block;
+		clear: both;
+		padding: $gutter;
+		background: $beige;
+		background: linear-gradient(to bottom right, $beige, $beige, darken($beige, 5%));
+		text-align: center;
+		border-bottom: 1px solid darken($beige, 8%);
+	}
+	#header {
+		padding: $gutter;
+		@include tablet-desktop {
+			padding: $space-sm;
+		}
+		text-align: center;
+		background-color: $cream;
+		height: 45px;
+		@include tablet-desktop {
+			height: 176px;
+		}
+		h1.logo {
+			margin: $gutter auto;
+			width: 24%;
+			float: left;
+			@include tablet-desktop {
+				float: none;
+				width: auto;
+				margin: 22px auto 0;
+			}
+			a {
+				margin: 0 0 0 $space-sm;
+				display: block;
+				text-indent: -9999px;
+				font-size: 0px;
+				background: url('images/freestone_logo_250px.png') no-repeat center;
+				background-size: 67px 40px; // 338px x 200px
+				height: 40px;
+				width: 67px;
+				@include tablet-desktop {
+					margin: 0 auto;
+					background-size: 223px 132px; // 338px x 200px
+					height: 132px;
+					width: 223px;
+				}
+			}
+		}
+	}
+	#primary {
+		padding: $space-md $space-lg;
+		background-color: $cream;
+		border-bottom: 1px solid #111111;
+	}
+	#secondary {
+		padding: $space-md;
+		background-color: $dark-beige;
+		color: $cream;
+		a, link {
+			color: $white;
+		}
+	}
+	#footer:before {
+		content: " ";
+		clear: both;
+		display: table-cell;
+	}
+	#footer {
+		padding: $space-md;
+		background: $darker-beige;
+		background: linear-gradient(to bottom right, $darker-beige, $darker-beige, $black);
+		text-align: center;
+		color: $white;
+	}
+}
