@@ -22,14 +22,16 @@ body {
 	margin: 0px auto;
 	box-shadow: 0 -5px $space-sm #777;
 	#top-bar {
-		height: 30px;
 		display: block;
 		clear: both;
+		height: 30px;
 		padding: $gutter;
 		background: $beige;
 		background: linear-gradient(to bottom right, $beige, $beige, darken($beige, 5%));
-		text-align: center;
 		border-bottom: 1px solid darken($beige, 8%);
+		@include tablet-desktop {
+			padding: $gutter $space-md;
+		}
 	}
 	#header {
 		padding: $gutter;

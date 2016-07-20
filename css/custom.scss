@@ -13,6 +13,7 @@
 	$column-width: 33%;
 	.store-cta {
 		display: none;
+		text-align: left;
 		a {
 			color: $white;
 			text-shadow: 0 1px 0 $dark-beige;
@@ -29,6 +30,7 @@
 	}
 	.social-links {
 		display: block;
+		text-align: center;
 		@include tablet-desktop {
 			float: left;
 			width: $column-width;
@@ -42,6 +44,7 @@
 	.search-ecwid-desktop {
 		display: none;
 		@include tablet-desktop {
+			margin-top: -2px;
 			display: block;
 			width: $column-width;
 			float: left;
