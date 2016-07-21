@@ -41,22 +41,42 @@ body {
     padding: 3px;
     text-align: center;
     background-color: #ece9d6;
-    height: 45px; }
+    height: 45px;
+    clear: both; }
     @media (min-width: 768px) {
       #page-wrap #header {
-        padding: 10px; } }
-    @media (min-width: 768px) {
-      #page-wrap #header {
+        padding: 3px;
         height: 176px; } }
+    @media (min-width: 768px) {
+      #page-wrap #header .header-img {
+        float: left;
+        margin: 8px 5px;
+        height: 160px;
+        content: ' ';
+        width: 32%;
+        border-radius: 15px; } }
+    @media (min-width: 768px) {
+      #page-wrap #header .header-img:nth-child(1) {
+        background: url("images/harvest.jpg") no-repeat left 22%;
+        background-size: 350px 350px; } }
+    @media (min-width: 768px) {
+      #page-wrap #header .header-img:nth-child(2) {
+        background: url("images/pickles.jpg") no-repeat left 20%;
+        background-size: 400px 608px; } }
+    @media (min-width: 768px) {
+      #page-wrap #header .header-img:nth-child(3) {
+        background: url("images/uphill.jpg") no-repeat left 40%;
+        background-size: 350px 350px; } }
     #page-wrap #header h1.logo {
       margin: 3px auto;
       width: 24%;
       float: left; }
       @media (min-width: 768px) {
         #page-wrap #header h1.logo {
+          clear: both;
           float: none;
           width: auto;
-          margin: 22px auto 0; } }
+          padding: 10px auto 0; } }
       #page-wrap #header h1.logo a {
         margin: 0 0 0 10px;
         display: block;
@@ -70,7 +90,8 @@ body {
           #page-wrap #header h1.logo a {
             margin: 0 auto;
             background-size: 223px 132px;
-            height: 132px;
+            background-position: center center;
+            height: 160px;
             width: 223px; } }
   #page-wrap #primary {
     padding: 15px 30px;

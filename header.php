@@ -50,7 +50,7 @@
 
 		<div id="top-bar">
 			<div class="store-cta">
-				<h4><a href="#" title="24-Hour Pickle Store">24-Hour Pickle Store <i class="fa fa-shopping-cart"></i></a></h4>
+				<h4><a href="/store">24-Hour Pickle Store</a> <a href="/store/#!/~/cart" title="24-Hour Pickle Store"><i class="fa fa-shopping-cart"></i></a></h4>
 			</div>
 			<div class="social-links">
 				<a href="https://www.facebook.com/Freestone-Pickles-43904669365/" target="blank" title="Freestone Pickles on Facebook"><i class="fa fa-facebook-official"></i></a>
@@ -62,7 +62,9 @@
 		</div>
 
 		<div id="header">
-			<h1 class="logo"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+			<div class="header-img"></div>
+			<div class="header-img"><h1 class="logo"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1></div>
+			<div class="header-img"></div>
 			<div class="search-ecwid">
 				<script type="text/javascript" src="https://app.ecwid.com/script.js?9323014" charset="utf-8"></script> <script type="text/javascript"> xSearch("id=my-search-9323014");</script>
 			</div>

@@ -35,23 +35,51 @@ body {
 	}
 	#header {
 		padding: $gutter;
-		@include tablet-desktop {
-			padding: $space-sm;
-		}
 		text-align: center;
 		background-color: $cream;
 		height: 45px;
+		clear: both;
 		@include tablet-desktop {
+			padding: $gutter;
 			height: 176px;
+		}
+		.header-img {
+			@include tablet-desktop {
+				float: left;
+				margin: 8px 5px;
+				height: 160px;
+				content: ' ';
+				width: 32%;
+				border-radius: 15px;
+			}
+			&:nth-child(1) {
+				@include tablet-desktop {
+					background: url('images/harvest.jpg') no-repeat left 22%;
+					background-size: 350px 350px; // 900px 900px
+				}
+			}
+			&:nth-child(2) {
+				@include tablet-desktop {
+					background: url('images/pickles.jpg') no-repeat left 20%;
+					background-size: 400px 608px; // 1200px 1842px
+				}
+			}
+			&:nth-child(3) {
+				@include tablet-desktop {
+					background: url('images/uphill.jpg') no-repeat left 40%;
+					background-size: 350px 350px; // 900px 900px
+				}
+			}
 		}
 		h1.logo {
 			margin: $gutter auto;
 			width: 24%;
 			float: left;
 			@include tablet-desktop {
+				clear: both;
 				float: none;
 				width: auto;
-				margin: 22px auto 0;
+				padding: $space-sm auto 0;
 			}
 			a {
 				margin: 0 0 0 $space-sm;
@@ -65,7 +93,8 @@ body {
 				@include tablet-desktop {
 					margin: 0 auto;
 					background-size: 223px 132px; // 338px x 200px
-					height: 132px;
+					background-position: center center;
+					height: 160px;
 					width: 223px;
 				}
 			}
