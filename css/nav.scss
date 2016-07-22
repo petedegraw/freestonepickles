@@ -1,6 +1,17 @@
+#nav-toggle {
+	display: block;
+	background: $cream;
+	@include tablet-desktop {
+		display: none;
+	}
+}
 #nav {
 	background-color: $cream;
 	border-top: 3px solid $dark-beige;
+	display: none;
+	@include tablet-desktop {
+		display: block;
+	}
 	ul {
 		margin: 3px 0 0;
 		border-top: 2px solid $dark-beige;
@@ -38,7 +49,6 @@
 		}
 		li.current_page_item a {
 			background: $light-green;
-			// background: linear-gradient(to bottom right, $light-green, $light-green, #9BC35F);
 			background: linear-gradient(to bottom, $light-green, $light-green, darken($light-green, 10%));
 		}
 		@include tablet-desktop {
@@ -55,15 +65,18 @@
 				}
 				&:before {
 					left: -9px;
-					border-width: $line-height 0 $line-height 7px;
+					border-width: $line-height 0 $line-height 9px;
 					border-color: transparent transparent transparent $cream;
 				}
 				&:after {
 					left: 9px;
-					border-width: $line-height 7px $line-height 0;
+					border-width: $line-height 9px $line-height 0;
 					border-color: transparent $cream transparent transparent;
 				}
 			}
 		}
 	}
+}
+.nav-hidden {
+  display: none;
 }

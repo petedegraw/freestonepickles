@@ -114,9 +114,20 @@ body {
     text-align: center;
     color: white; }
 
+#nav-toggle {
+  display: block;
+  background: #ece9d6; }
+  @media (min-width: 768px) {
+    #nav-toggle {
+      display: none; } }
+
 #nav {
   background-color: #ece9d6;
-  border-top: 3px solid #9d9b92; }
+  border-top: 3px solid #9d9b92;
+  display: none; }
+  @media (min-width: 768px) {
+    #nav {
+      display: block; } }
   #nav ul {
     margin: 3px 0 0;
     border-top: 2px solid #9d9b92;
@@ -164,12 +175,15 @@ body {
         border-style: solid; }
       #nav ul li.current_page_item a:before, #nav ul li a:before {
         left: -9px;
-        border-width: 30px 0 30px 7px;
+        border-width: 30px 0 30px 9px;
         border-color: transparent transparent transparent #ece9d6; }
       #nav ul li.current_page_item a:after, #nav ul li a:after {
         left: 9px;
-        border-width: 30px 7px 30px 0;
+        border-width: 30px 9px 30px 0;
         border-color: transparent #ece9d6 transparent transparent; } }
+
+.nav-hidden {
+  display: none; }
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
