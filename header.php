@@ -69,7 +69,7 @@
 				<script type="text/javascript" src="https://app.ecwid.com/script.js?9323014" charset="utf-8"></script> <script type="text/javascript"> xSearch("id=my-search-9323014");</script>
 			</div>
 			<div id="nav-toggle">
-				<i id="nav-icon" class="fa fa-bars"></i> Menu
+				Menu <i id="nav-icon" class="fa fa-bars"></i>
 			</div>
 		</div>
 		<div id="nav">

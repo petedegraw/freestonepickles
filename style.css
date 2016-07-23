@@ -124,8 +124,14 @@ body {
   display: block;
   width: 24%;
   float: left;
-  margin: 17px 0 0 0;
-  background: #ece9d6; }
+  margin: 15px 0 0 0;
+  background: #ece9d6;
+  color: #9d9b92;
+  text-align: right;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px; }
+  #nav-toggle i {
+    color: #4d4d4d; }
   @media (min-width: 768px) {
     #nav-toggle {
       display: none; } }
