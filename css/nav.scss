@@ -1,5 +1,8 @@
 #nav-toggle {
 	display: block;
+	width: 24%;
+	float: left;
+	margin: 17px 0 0 0;
 	background: $cream;
 	@include tablet-desktop {
 		display: none;
@@ -7,17 +10,22 @@
 }
 #nav {
 	background-color: $cream;
-	border-top: 3px solid $dark-beige;
 	display: none;
+	width: 100%;
 	@include tablet-desktop {
+		padding: 3px 0 0;
 		display: block;
 	}
 	ul {
-		margin: 3px 0 0;
-		border-top: 2px solid $dark-beige;
 		width: 100%;
+		margin: 0;
+		padding: 0;
 		@include tablet-desktop {
+			border-top: 2px solid $dark-beige;
+			margin: 0;
+			padding-bottom: $space-sm;
 			text-align: center;
+			border-bottom: 1px solid #ddd;
 		}
 		li {
 			margin: 0;

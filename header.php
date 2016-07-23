@@ -68,8 +68,10 @@
 			<div class="search-ecwid">
 				<script type="text/javascript" src="https://app.ecwid.com/script.js?9323014" charset="utf-8"></script> <script type="text/javascript"> xSearch("id=my-search-9323014");</script>
 			</div>
+			<div id="nav-toggle">
+				<i id="nav-icon" class="fa fa-bars"></i> Menu
+			</div>
 		</div>
-		<div id="nav-toggle"><i class="fa fa-bars"></i> Menu</div>
 		<div id="nav">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</div>

@@ -65,15 +65,15 @@
 
 	// Navigation
 	$(function(){
-	  $('#nav-toggle').click(function(){
-	    $('#nav').toggle("fast","swing",function(){
-	      var menu = $('#nav');
-	      if (menu.hasClass('nav-hidden')) {
-	        menu.removeClass('nav-hidden');
-	    	$("#nav-toggle i").removeClass('fa-times').addClass('fa-bars');
+	  var toggleButton = $('#nav-toggle');
+	  var menu = $('#nav');
+	  
+	  $(toggleButton).click(function(){
+	    $(menu).toggle("fast","linear",function(){
+	      if ($(menu).hasClass('nav-hidden')) {
+	        $(menu).removeClass('nav-hidden');
 	      } else {
-	        menu.addClass('nav-hidden');
-	        $("#nav-toggle i").removeClass('fa-bars').addClass('fa-times');
+	        $(menu).addClass('nav-hidden');
 	      }
 	    });
 	  });
