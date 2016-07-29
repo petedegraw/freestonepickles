@@ -69,24 +69,50 @@ $desktop-width: 1024px;
 	width: 100%;
 	display: block;
 	clear: both;
-	.col4 {
-		width: 100%;
-		margin-bottom: $space-lg;
-		@include tablet-desktop {
-			width: 32.333%;
-			float: left;
-			margin-right: 1.444%;
-		}
-	}
-	.col4:last-child {
-		@include tablet-desktop {
-			margin-right: 0px;
-		}
-	}
 	&:after {
 		content: ' ';
 		font-size: 0px;
 		display: block;
 		clear: both;
 	}
+
+	.col4 {
+		width: 100%;
+		margin-bottom: $space-lg;
+		@include tablet-desktop {
+			width: 32.333%;
+			margin-right: 1.444%;
+		}
+	}
+
+	.col6 {
+		width: 100%;
+		margin-bottom: $space-lg;
+		@include tablet-desktop {
+			width: 49.5%;
+			margin-right: .5%;
+		}
+	}
+
+	.col8 {
+		width: 100%;
+		margin-bottom: $space-lg;
+		@include tablet-desktop {
+			width: 62.333%;
+			margin-right: 1.444%;
+		}
+	}
+
+	.col4, .col6, .col8 {
+		@include tablet-desktop {
+			float: left;
+			margin-bottom: 0;
+		}
+		&:last-child {
+			@include tablet-desktop {
+				margin-right: 0px;
+			}
+		}
+	}
+	
 }

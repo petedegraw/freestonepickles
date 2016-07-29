@@ -54,4 +54,7 @@
       register_nav_menu( 'primary', __( 'Primary Menu', 'freestonepickles' ) );
     }
 
+    // Remove Auto P
+    // remove_filter( 'the_content', 'wpautop' );
+
 ?>

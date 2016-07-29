@@ -101,11 +101,19 @@ strong.sans-serif {
 	clear: both;
 }
 .jumbotron-slogan {
-	margin-left: -$space-lg;
-	margin-right: -$space-lg;
-	&:before, &:after {
+	text-shadow: 1px 1px 1px white, 2px 2px 3px #aaa;
+	@include tablet-desktop {
+		text-shadow: none;
 		margin-left: -$space-lg;
 		margin-right: -$space-lg;
+	}
+	&:before, &:after {
+		margin-left: -($space-md)*2.8;
+		margin-right: -($space-md)*2.8;
+		@include tablet-desktop {
+			margin-left: -$space-lg;
+			margin-right: -$space-lg;
+		}
 		background-image: url("images/flowers.png");
 	  background-repeat: no-repeat;
 	  width: 79px;
@@ -119,6 +127,9 @@ strong.sans-serif {
 	&:after {
 		background-position: -79px 0px;
 		float: right;
+		@include tablet-desktop {
+			margin-right: 0px;
+		}
 	}
 }
 .jumbotron-store {

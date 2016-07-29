@@ -1,0 +1,41 @@
+form {
+	padding: $space-sm;
+	label {
+		display: block;
+		font-size: ($font-size)*.9;
+		padding: 0px 10px 0 0;
+		box-sizing: border-box;
+	}
+	input, select {
+		height: 32px;
+		display: block;
+	}
+	input,
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0;
+		padding: $gutter $space-sm;
+		font-size: 16px;
+		border: 1px solid lighten($black, 25%);
+		border-radius: 3px;
+		background: $white;
+		margin-bottom: $space-md;
+	}
+	select {
+		min-width: 100px;
+    width: auto;
+	}
+	// Buttons
+	input[type="submit"] {
+    padding: 6px 12px;
+    min-width: 120px;
+    width: auto;
+    background: $light-green;
+    border-color: transparent;
+	}
+}
