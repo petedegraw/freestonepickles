@@ -102,7 +102,9 @@ strong.sans-serif {
 }
 .jumbotron-slogan {
 	text-shadow: 1px 1px 1px white, 2px 2px 3px #aaa;
+	text-indent: $space-lg;
 	@include tablet-desktop {
+		text-indent: 0px;
 		text-shadow: none;
 		margin-left: -$space-lg;
 		margin-right: -$space-lg;
@@ -127,16 +129,62 @@ strong.sans-serif {
 	&:after {
 		background-position: -79px 0px;
 		float: right;
+		display: none;
 		@include tablet-desktop {
-			margin-right: 0px;
+			display: block;
+			margin-right: -$space-lg;
 		}
 	}
 }
 .jumbotron-store {
 	color: $red;
+	font-weight: bold;
 	text-shadow: 1px 2px 0 white, 3px 4px 0 #ccc;
 	margin-bottom: 0;
 	a {
 		text-decoration: none;
+	}
+}
+.jumbotron-banner {
+	font-size: $font-size;
+	font-family: $font-sans-serif;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	color: white;
+	padding: $space-md;
+	background: $red;
+	text-shadow: 0 1px 0 #333;
+	margin-left: -$space-sm;
+	margin-right: -$space-sm;
+	line-height: $line-height;
+	@include tablet-desktop {
+		line-height: $line-height * 2;
+		margin-left: -$space-lg;
+		margin-right: -$space-lg;
+		&:before, &:after {
+			content: "";
+			position: relative;
+			top: -($space-sm*1.1);
+			font-size: 0px;
+			line-height: 0px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			display: block;
+			top: -30px;
+		}
+		&:before {
+			float: left;
+			left: -55px;
+			border-width: 45px 0 45px 40px;
+			border-color: lighten($red, 5%) lighten($red, 10%) lighten($red, 10%) transparent;
+		}
+		&:after {
+			float: right;
+			left: 55px;
+			border-width: 45px 40px 45px 0;
+			border-color: lighten($red, 5%) transparent lighten($red, 10%) lighten($red, 10%);
+		}
 	}
 }

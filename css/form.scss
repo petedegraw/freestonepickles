@@ -2,9 +2,12 @@ form {
 	padding: $space-sm;
 	label {
 		display: block;
-		font-size: ($font-size)*.9;
+		font-size: ($font-size)*.75;
 		padding: 0px 10px 0 0;
 		box-sizing: border-box;
+		font-family: $font-sans-serif;
+		color: #666;
+		line-height: $font-size;
 	}
 	input, select {
 		height: 32px;
@@ -28,7 +31,7 @@ form {
 	}
 	select {
 		min-width: 100px;
-    width: auto;
+    width: 100%;
 	}
 	// Buttons
 	input[type="submit"] {
