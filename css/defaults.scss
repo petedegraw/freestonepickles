@@ -2,6 +2,7 @@
 
 // Colors
 $light-green: #A1D884;
+$green: #87AB5E;
 $red: #DA291C;
 $faded-red: #D84F41;
 $cream: #ECE9D6;
@@ -60,4 +61,32 @@ $desktop-width: 1024px;
   @media (min-width: #{$tablet-width}) {
     @content;
   }
+}
+
+// Columns
+.row {
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	clear: both;
+	.col4 {
+		width: 100%;
+		margin-bottom: $space-lg;
+		@include tablet-desktop {
+			width: 32.333%;
+			float: left;
+			margin-right: 1.444%;
+		}
+	}
+	.col4:last-child {
+		@include tablet-desktop {
+			margin-right: 0px;
+		}
+	}
+	&:after {
+		content: ' ';
+		font-size: 0px;
+		display: block;
+		clear: both;
+	}
 }

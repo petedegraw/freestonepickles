@@ -1,1 +1,56 @@
 // components.scss
+.hr-star {
+	margin-top: $space-lg;
+	display: block;
+	height: 3px;
+  border-top: 3px solid $dark-beige;
+	border-bottom: 2px solid $dark-beige;
+	text-align: center;
+	i {
+		color: $dark-beige;
+		font-size: 30px;
+		padding: 10px;
+		background: $cream;
+		position: relative;
+		top: -25px;
+	}
+}
+
+// Cards
+.card {
+	box-shadow: 0 2px 8px rgba(0,0,0,.2);
+	line-height: 0px;
+	max-width: 291px;
+	margin: 0 auto;
+}
+
+// Homepage Products
+.home-products {
+	margin-bottom: $space-lg;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	h4 {
+		margin-top: $space-sm;
+		@include tablet-desktop {
+			margin-top: $space-lg;
+		}
+		a {
+			max-width: 291px;
+			display: block;
+			margin: 0 auto;
+			@include tablet-desktop {
+				display: inline-block;
+			}
+			text-decoration: none;
+			font-size: ($font-size)*.85;
+			line-height: ($line-height)*.75;
+			padding: $space-sm $space-md;
+			background: $green;
+			color: white;
+			border-radius: 2px;
+			box-shadow: 0 2px 5px rgba(0,0,0,.2);
+		}
+	}
+}

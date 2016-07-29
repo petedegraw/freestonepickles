@@ -13,6 +13,12 @@ h1, h2, h3, #nav, .jumbotron {
 	text-transform: uppercase;
 	letter-spacing: .015em;
 }
+.home-products {
+	h4 {
+		font-family: $font-sans-serif;
+		font-weight: normal;
+	}
+}
 
 h1, h2, h3 {
 	margin: 0 0 $space-md 0;
@@ -86,16 +92,17 @@ strong.sans-serif {
 	}
 }
 .jumbotron {
-	margin-left: -$space-lg;
-	margin-right: -$space-lg;
 	padding: $space-lg;
 	margin-top: $space-lg;
 	font-size: $font-size * 3;
 	line-height: $line-height * 2;
-	display: block;
 	word-spacing: ($space-sm/1.5);
 	text-align: center;
 	clear: both;
+}
+.jumbotron-slogan {
+	margin-left: -$space-lg;
+	margin-right: -$space-lg;
 	&:before, &:after {
 		margin-left: -$space-lg;
 		margin-right: -$space-lg;
@@ -112,5 +119,13 @@ strong.sans-serif {
 	&:after {
 		background-position: -79px 0px;
 		float: right;
+	}
+}
+.jumbotron-store {
+	color: $red;
+	text-shadow: 1px 2px 0 white, 3px 4px 0 #ccc;
+	margin-bottom: 0;
+	a {
+		text-decoration: none;
 	}
 }
