@@ -86,9 +86,31 @@ strong.sans-serif {
 	}
 }
 .jumbotron {
+	margin-left: -$space-lg;
+	margin-right: -$space-lg;
+	padding: $space-lg;
+	margin-top: $space-lg;
 	font-size: $font-size * 3;
-	line-height: $line-height * 3;
+	line-height: $line-height * 2;
 	display: block;
 	word-spacing: ($space-sm/1.5);
 	text-align: center;
+	clear: both;
+	&:before, &:after {
+		margin-left: -$space-lg;
+		margin-right: -$space-lg;
+		background-image: url("images/flowers.png");
+	  background-repeat: no-repeat;
+	  width: 79px;
+	  display: block;
+	  height: 81px;
+	  content: ' ';
+	}
+	&:before {
+		float: left;
+	}
+	&:after {
+		background-position: -79px 0px;
+		float: right;
+	}
 }

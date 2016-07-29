@@ -79,5 +79,13 @@
 	  });
 	});
 
+	// Slider
+	jQuery(document).ready(function($) {
+	  $('.home-slider').unslider({
+	    // autoplay: true,
+	    speed: 1000
+	  });
+	});
+
 /***/ }
 /******/ ]);
