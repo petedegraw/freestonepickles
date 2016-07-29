@@ -107,16 +107,22 @@ body {
 		}
 	}
 	#primary {
-		padding: $space-md $space-lg;
+		padding: $space-md $space-sm;
 		background-color: $cream;
 		border-bottom: 1px solid #111111;
+		@include tablet-desktop {
+			padding: $space-md $space-lg;
+		}
 	}
 	#secondary {
-		padding: $space-md;
+		padding: $space-md $space-sm;
 		background-color: $dark-beige;
 		color: $cream;
 		a, link {
 			color: $white;
+		}
+		@include tablet-desktop {
+			padding: $space-md $space-lg;
 		}
 	}
 	#footer:before {
@@ -125,10 +131,13 @@ body {
 		display: table-cell;
 	}
 	#footer {
-		padding: $space-md;
+		padding: $space-md $space-sm;
 		background: $darker-beige;
 		background: linear-gradient(to bottom right, $darker-beige, $darker-beige, $black);
 		text-align: center;
 		color: $white;
+		@include tablet-desktop {
+			padding: $space-md $space-lg;
+		}
 	}
 }

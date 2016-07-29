@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-size"
+			],
+			[
+				"dark",
+				"dark-beige"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"toggl",
+				"toggleClass"
+			],
+			[
+				"tog",
+				"toggleButton"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"col",
+				"column-width"
+			],
+			[
+				"sear",
+				"searchBox"
+			],
+			[
+				"table",
+				"tablet-desktop"
+			],
+			[
+				"space",
+				"space-sm"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"da",
+				"darken"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"tab",
+				"tab-content-bg"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text-tr",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding-sm"
+			],
+			[
 				"price",
 				"priceChanging"
 			],
@@ -24,20 +116,12 @@
 				"controller_name"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"link",
 				"link_icon"
 			],
 			[
 				"load",
 				"load_out"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"ari",
@@ -68,20 +152,12 @@
 				"showActions"
 			],
 			[
-				"col",
-				"columnSelector"
-			],
-			[
 				"po",
 				"popover"
 			],
 			[
 				"add",
 				"addClass"
-			],
-			[
-				"table",
-				"tableReset"
 			],
 			[
 				"boo",
@@ -162,10 +238,6 @@
 			[
 				"backline_needs",
 				"backline_needs_url"
-			],
-			[
-				"back",
-				"backline_needs"
 			],
 			[
 				"backlin",
@@ -328,14 +400,6 @@
 				"nav-link-color"
 			],
 			[
-				"bac",
-				"background-lighter"
-			],
-			[
-				"border",
-				"border-color"
-			],
-			[
 				"ligh",
 				"lighten"
 			],
@@ -450,75 +514,36 @@
 			[
 				"eve",
 				"event_id_eq"
-			],
-			[
-				"not",
-				"notes_cont_any"
-			],
-			[
-				"fnot",
-				"font-size"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"word",
-				"word-wrap"
-			],
-			[
-				"bor",
-				"border-color"
-			],
-			[
-				"flex-",
-				"flex-direction"
-			],
-			[
-				"field",
-				"show_fields"
-			],
-			[
-				"c",
-				"class	Attr"
-			],
-			[
-				"artist",
-				"artist_id"
-			],
-			[
-				"Show",
-				"ShowType"
-			],
-			[
-				"sh",
-				"show_type"
-			],
-			[
-				"show_fields",
-				"show_fields_url"
-			],
-			[
-				"el",
-				"else"
-			],
-			[
-				"date",
-				"datetime_picker"
-			],
-			[
-				"inv",
-				"inv_number"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "style.scss",
+			"settings":
+			{
+				"buffer_size": 5836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/custom.scss",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Unix",
+				"name": "custom.scss"
+			}
+		},
+		{
+			"file": "css/typography.scss",
+			"settings":
+			{
+				"buffer_size": 1600,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -576,9 +601,44 @@
 	],
 	"file_history":
 	[
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/layout.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/js/index.js",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/nav.scss",
 		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/header.php",
-		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/sass/variables-site/_colors.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/typography.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/typography.css",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/tabs.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/components.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/.gitignore",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/functions.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/font-awesome/_variables.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/fonts/font-awesome/scss/_variables.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/defaults.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/images/freestone_logo_250px.png",
+		"/Users/pdegraw/Dropbox/Clients/Sharp Marketing/Freestone Pickles/Materials/img/Freestone_logo2.eps",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/css/defaults.css",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/js/tabs.js",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/page.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/sidebar.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/footer.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/single.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/archive.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/index.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/style.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/search.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/404.php",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/style.css",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/webpack.config.js",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/package.json",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/composer.json",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/gulpfile.js",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/bower.json",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/package.json",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone-2016/assets/scss/foundation.scss",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone-2016/gulpfile.js",
 		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone-2016/style.css",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles2/style.css",
+		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestonepickles/sass/variables-site/_colors.scss",
 		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/page.php",
 		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/index.php",
 		"/Users/pdegraw/Sites/customers/sharpmkt/freestone/wp-content/themes/freestone/components/page/content-page.php",
@@ -668,46 +728,11 @@
 		"/Users/pdegraw/Sites/rails/showmanager/vendor/assets/stylesheets/jquery-tablesorter/theme.bootstrap_2.css",
 		"/Users/pdegraw/Sites/rails/showmanager/app/assets/javascripts/stages.js.coffee",
 		"/Users/pdegraw/Sites/rails/showmanager/app/assets/javascripts/shows.js.coffee",
-		"/Users/pdegraw/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/pdegraw/Sites/rails/showmanager/app/assets/stylesheets/print.scss",
-		"/Users/pdegraw/Sites/rails/showmanager/spec/factories/events.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/spec/requests/events_spec.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/events/_form_stage.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/stages/_form.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/stages/_no_shows.rhtml",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/shows/_sidebar_index.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/models/role.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/models/show_type.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/spec/factories/roles.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/stages/_form_show.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/shows/new.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/events/partials/_event_stats.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/spec/models/event_spec.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/assets/javascripts/events.js.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/index.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/show_types/index.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/show_types/edit.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/_form.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/controllers/backline_needs_controller.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/edit.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/new.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/_form_modal.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/assets/javascripts/backline_needs.js",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/_sidebar_index.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/backline_needs/show.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/controllers/show_types_controller.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/show_types/_sidebar_index.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/db/schema.rb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/events/_form.html inline.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/stages/_form_artist.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/assets/stylesheets/shows.css.scss",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/stages/edit.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/views/pages/index.html.erb",
-		"/Users/pdegraw/Sites/rails/showmanager/app/controllers/roles_controller.rb"
+		"/Users/pdegraw/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -727,6 +752,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tab-color-active",
 			"margin-bottom",
 			"navbar",
 			"nav",
@@ -853,8 +879,7 @@
 			"stage",
 			"main-c",
 			"stage",
-			"stages",
-			"main-cont"
+			"stages"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -881,8 +906,97 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2885.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_name": "custom.scss",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/typography.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1123,
+								1123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 826.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -943,8 +1057,80 @@
 		"selected_items":
 		[
 			[
+				"typ",
+				"css/typography.scss"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"nav",
+				"css/nav.scss"
+			],
+			[
+				"na",
+				"css/nav.scss"
+			],
+			[
+				"inde",
+				"js/index.js"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
 				"ind",
-				"views/index.html"
+				"js/index.js"
+			],
+			[
+				"h",
+				"header.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"layout",
+				"css/layout.scss"
+			],
+			[
+				"def",
+				"css/defaults.scss"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"side",
+				"sidebar.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"archi",
+				"archive.php"
+			],
+			[
+				"heaer",
+				"header.php"
+			],
+			[
+				"style",
+				"style.scss"
+			],
+			[
+				"we",
+				"webpack.config.js"
 			],
 			[
 				"head",
@@ -993,14 +1179,6 @@
 			[
 				"layouts/",
 				"app/views/layouts/_entity_modify.html.erb"
-			],
-			[
-				"header",
-				"app/views/layouts/_header.html.erb"
-			],
-			[
-				"inde",
-				"app/views/shows/index.html.erb"
 			],
 			[
 				"app",
@@ -1389,70 +1567,6 @@
 			[
 				"stage_con",
 				"app/controllers/stages_controller.rb"
-			],
-			[
-				"backline",
-				"app/models/backline_need.rb"
-			],
-			[
-				"show_type",
-				"app/models/show_type.rb"
-			],
-			[
-				"role.rb",
-				"app/models/role.rb"
-			],
-			[
-				"roles",
-				"spec/factories/roles.rb"
-			],
-			[
-				"shows/new",
-				"app/views/shows/new.html.erb"
-			],
-			[
-				"_form_show",
-				"app/views/stages/_form_show.html.erb"
-			],
-			[
-				"stages_helper",
-				"app/helpers/stages_helper.rb"
-			],
-			[
-				"event_stat",
-				"app/views/events/partials/_event_stats.html.erb"
-			],
-			[
-				"event_helper",
-				"app/helpers/events_helper.rb"
-			],
-			[
-				"appcli",
-				"app/helpers/application_helper.rb"
-			],
-			[
-				"requests/event",
-				"spec/requests/events_spec.rb"
-			],
-			[
-				"event",
-				"spec/models/event_spec.rb"
-			],
-			[
-				"event_help",
-				"app/helpers/events_helper.rb"
-			],
-			[
-				"shows_hlp",
-				"app/helpers/shows_helper.rb"
-			],
-			[
-				"event.js",
-				"app/assets/javascripts/events.js"
-			],
-			[
-				"stage.js",
-				"app/assets/javascripts/stages.js.coffee"
 			]
 		],
 		"width": 0.0
@@ -1486,8 +1600,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 223.0,
+	"side_bar_visible": false,
+	"side_bar_width": 262.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
