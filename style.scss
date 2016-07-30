@@ -134,6 +134,13 @@ object {
 	text-align: center;
 }
 
+img.alignright { float: right; margin: 0 0 $space-sm $space-md; }
+img.alignleft { float: left; margin: 0 $space-md $space-sm 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/

@@ -154,11 +154,16 @@
 			width: 100%;
 			font-family: 'Open Sans Condensed', sans-serif;
 			font-weight: bold;
-			top: ($space-lg)*1.75;
+			top: $space-md;
 			text-align: center;
-			font-size: 36px;
-			line-height: 42px;
+			font-size: 24px;
+			line-height: 32px;
 			color: $darker-beige;
+			@include tablet {
+				top: ($space-lg)*1.75;
+				font-size: 38px;
+				line-height: 36px;
+		  }
 		  @include desktop {
 				top: ($space-lg)*2.4;
 				font-size: 48px;

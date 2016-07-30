@@ -12,11 +12,6 @@ $(function(){
     })
 });
 
-// Search
-// $(function(){
-// 	$('.search-ecwid').detach().appendTo('#top-bar');
-// });
-
 // Navigation
 $(function(){
   var toggleButton = $('#nav-toggle');
@@ -40,3 +35,11 @@ jQuery(document).ready(function($) {
     speed: 1000
   });
 });
+
+// Years In Business
+var today = new Date();
+var yearNow = today.getYear();
+var firstYear = 1903;
+var years = yearNow - firstYear;
+// var numOfYears = getElementById('years').textContent('years');
+$('#years').text(years);
