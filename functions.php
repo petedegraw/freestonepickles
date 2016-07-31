@@ -25,6 +25,7 @@
       wp_enqueue_script( 'bundle.js', get_template_directory_uri() . '/build/bundle.js', 1.1, true);
       // wp_enqueue_script( 'jquery-ui.js', get_template_directory_uri() . '/js/jquery-ui.min.js', 1.1, true);
 
+      wp_enqueue_script( 'prefixfree.js','//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js', 1.1, false);
     }
     add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 	
