@@ -182,3 +182,37 @@
 		}
 	}
 }
+
+// Store Locator Plus
+#sl_div {
+	#searchForm {
+		padding: 0;
+		#addy_in_radius,
+		#radius_in_submit {
+			@include tablet-desktop {
+				float: left;
+			}
+		}
+		#radius_in_submit {
+			@include tablet-desktop {
+				margin-left: $space-sm;
+			}
+		}
+
+	}
+	#map_sidebar {
+		.results_wrapper {
+			&:first-child {
+				margin-top: $space-sm;
+			}
+			.results_entry {
+				box-sizing: border-box;
+				background: white;
+				padding: $space-sm;
+				margin-bottom: ($gutter)*2;
+				border-radius: 3px;
+				box-shadow: 0 2px 1px rgba(0,0,0,.2);
+			}
+		}
+	}
+}
