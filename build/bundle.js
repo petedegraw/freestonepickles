@@ -48,7 +48,7 @@
 
 	// Tabs
 	// https://webdesignerhut.com/create-simple-jquery-tabs/
-	$(function(){
+	jQuery(document).ready(function($) {
 		$('ul.tabs li').click(function(){
 	        var tab_id = $(this).attr('data-tab');
 	        $('ul.tabs li').removeClass('current');
@@ -59,10 +59,10 @@
 	});
 
 	// Navigation
-	$(function(){
+	jQuery(document).ready(function($) {
 	  var toggleButton = $('#nav-toggle');
 	  var menu = $('#nav');
-	  
+
 	  $(toggleButton).click(function(){
 	    $(menu).toggle("fast","linear",function(){
 	      if ($(menu).hasClass('nav-hidden')) {
@@ -89,6 +89,7 @@
 	var years = yearNow - firstYear;
 	// var numOfYears = getElementById('years').textContent('years');
 	$('#years').text(years);
+
 
 /***/ }
 /******/ ]);
