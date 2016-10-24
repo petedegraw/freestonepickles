@@ -54,3 +54,77 @@
 		}
 	}
 }
+
+// Map Component
+.bh-sl-container {
+	background: rgba(0,0,0,.05);
+	clear: none !important;
+	float: none !important;
+	padding: 0;
+	.bh-sl-form-container {
+		box-sizing: border-box !important;
+		clear: none !important;
+		float: none !important;
+		padding: 15px;
+		width: 100%;
+		form {
+			padding: 0;
+			@media (min-width: 768px) {
+				.bh-sl-form-input {
+					width: 50%;
+					.bh-sl-form-input-group {
+						width: 48%;
+						margin-right: 2%;
+					}
+				}
+			}
+			button {
+				clear: none;
+				float: left;
+				margin-top: 35px;
+				margin-right: 10px;
+				margin-left: 10px;
+				padding: 6px 12px;
+		    width: auto;
+		    background: #a1d884;
+		    border-color: transparent;
+				@media (min-width: 768px) {
+					margin-top: 85px;
+				}
+			}
+		}
+		.bh-sl-filters-container {
+			clear: none;
+			border-left: 1px solid rgba(0,0,0,.05);
+			float: left;
+			margin: 0 0 0 20px;
+			padding-left: 20px;
+			width: 33%;
+			.bh-sl-filters {
+				float: none;
+				margin: 0;
+				li {
+					input {
+						width: 22px;
+						margin: 0;
+					}
+					label {
+						background: rgba(0,0,0,.04);
+						display: block;
+						line-height: 32px;
+						padding-left: 10px;
+					}
+				}
+			}
+		}
+	}
+	.bh-sl-map-container {
+		clear: left !important;
+		float: none !important;
+		margin-top: 0 !important;
+		padding: 0;
+		.bh-sl-map {
+			// margin-top: 9px;
+		}
+	}
+}

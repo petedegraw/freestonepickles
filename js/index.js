@@ -37,9 +37,16 @@ jQuery(document).ready(function($) {
 });
 
 // Years In Business
-var today = new Date();
-var yearNow = today.getYear();
-var firstYear = 1903;
-var years = yearNow - firstYear;
-// var numOfYears = getElementById('years').textContent('years');
-$('#years').text(years);
+jQuery(document).ready(function($) {
+	function totalYears(){
+	  var originYear = 1903;
+	  var currentYear = new Date().getFullYear();
+	  var yearsInBusiness = currentYear-originYear;
+	  $('#yearsInBusiness').html(yearsInBusiness);
+	}
+	totalYears();
+});
+
+jQuery(document).ready(function($){
+	$('.bh-sl-form-input .bh-sl-form-input-group:first-child').before('<h3 class="bh-sl-filter-title">Location Search</h3>');
+});
