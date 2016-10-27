@@ -60,20 +60,25 @@
 					background-color: $cream;
 					border-bottom: none;
 				}
+				@include tablet {
+					border-radius: 3px;
+					padding: 6px 18px;
+					margin: $space-md 0 $space-sm;
+				}
 			}
 		}
 		li.current_page_item a {
 			background: $light-green;
 			background: linear-gradient(to bottom, $light-green, $light-green, darken($light-green, 10%));
 		}
-		@include tablet-desktop {
+		@include desktop {
 			li.current_page_item a, li a {
 				&:before, &:after {
 					content: "";
 					position: relative;
 					top: -($space-sm*1.1);
-					font-size: 0px;
-					line-height: 0px;
+					font-size: 0;
+					line-height: 0;
 					width: 0;
 					height: 0;
 					border-style: solid;
