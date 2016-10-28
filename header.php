@@ -6,9 +6,9 @@
 <head profile="http://gmpg.org/xfn/11">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-	
+
 	<?php if (is_search()) { ?>
-	   <meta name="robots" content="noindex, nofollow" /> 
+	   <meta name="robots" content="noindex, nofollow" />
 	<?php } ?>
 
 	<title>
@@ -31,26 +31,26 @@
 		         echo ' - page '. $paged; }
 		   ?>
 	</title>
-	
+
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-	
+
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
-	
+
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 	<?php wp_head(); ?>
-	
+
 </head>
 
 <body <?php body_class(); ?>>
-	
+
 	<div id="page-wrap">
 
 		<div id="top-bar">
 			<div class="store-cta">
-				<h4><a href="/store">24-Hour Pickle Store</a> <a href="/store/#!/~/cart" title="24-Hour Pickle Store"><i class="fa fa-shopping-cart"></i></a></h4>
+				<h4><a href="/store" class="cta-link">24-Hour Pickle Store</a> <a href="/store/#!/~/cart" class="cta-link" title="24-Hour Pickle Store"><i class="fa fa-shopping-cart"></i></a></h4>
 			</div>
 			<div class="social-links">
 				<a href="https://www.facebook.com/Freestone-Pickles-43904669365/" target="blank" title="Freestone Pickles on Facebook"><i class="fa fa-facebook-official"></i></a>
